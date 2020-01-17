@@ -1,0 +1,21 @@
+{
+  "name": "babeljs",
+  "version": "1.0.0",
+  "description": "babel js files",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "gulp --gulpfile scripts/gulpfile.js --src sample/bin/ --outDir sample/dist/ --outFile egret.libs.js"
+  },
+  "author": "daichangxin",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-uglify": "^3.0.2",
+    "minimist": "^1.2.0"
+  },
+  "dependencies": {}
+}
